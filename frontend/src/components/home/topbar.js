@@ -125,6 +125,7 @@ const Topbar = () => {
         <div className="left-box">
           <div className="login-buttons">
             <div
+              className="close-button"
               onClick={() => {
                 setdisplay("none");
               }}
@@ -217,6 +218,7 @@ const Topbar = () => {
             </div>
 
             <input
+              style={{ width: "90%" }}
               type="email"
               placeholder="Email"
               value={email2}
@@ -224,6 +226,7 @@ const Topbar = () => {
             />
 
             <input
+              style={{ width: "90%" }}
               type="phone"
               placeholder="phone no."
               value={phone}
@@ -231,6 +234,7 @@ const Topbar = () => {
             />
 
             <input
+              style={{ width: "90%" }}
               type="password"
               placeholder="Enter your password"
               value={pass2}
@@ -238,12 +242,14 @@ const Topbar = () => {
             />
 
             <input
+              style={{ width: "90%" }}
               type="password"
               placeholder="confirm password"
               value={confpass}
               onChange={changeHandler7}
             />
             <button
+              style={{ width: "95%" }}
               type="submit"
               className="lower-button"
               onClick={() => {

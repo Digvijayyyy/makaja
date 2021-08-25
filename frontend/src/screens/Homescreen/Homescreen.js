@@ -136,7 +136,11 @@ export const Homescreen = () => {
             </div>
           </div>
           <div className="first">
-            <img src="/images/reinee.png" alt="perfume" />
+            <img
+              style={{ paddingTop: "9rem" }}
+              src="/images/reinee.png"
+              alt="perfume"
+            />
             <h3>REINE</h3>
             <h4>₹ 2500 - 3000</h4>
           </div>
@@ -153,7 +157,11 @@ export const Homescreen = () => {
             </div>
           </div>
           <div className="first">
-            <img src="/images/ravissant.png" alt="perfume" />
+            <img
+              style={{ paddingTop: "8rem" }}
+              src="/images/ravissant.png"
+              alt="perfume"
+            />
             <h3>RAVISSANT</h3>
             <h4>₹ 2500 - 3000</h4>
           </div>

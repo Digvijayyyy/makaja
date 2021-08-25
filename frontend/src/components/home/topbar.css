@@ -101,12 +101,14 @@ login
 .left-box {
   width: 50%;
   border: 1px solid black;
-
-  background-color: #043b9f;
+  color: #000;
+  background-color: #c69736;
 }
 
 .right-box {
   width: 50%;
+  color: #c69736;
+  background: #000;
   border: 1px solid black;
 }
 
@@ -117,7 +119,7 @@ login
 }
 
 .login-buttons h1 {
-  color: #fff;
+  color: #000;
 }
 
 .login-buttons button {
@@ -125,8 +127,8 @@ login
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: transparent;
-  border: 2px solid #fff;
-  color: #ffff;
+  border: 2px solid #000;
+  color: #000;
   font-size: 16px;
 }
 
@@ -139,15 +141,16 @@ login
 
 .first-button {
   background-color: transparent;
-  border: 1px solid rgb(163, 163, 163);
+  border: 1px solid #c69736;
   padding: 0.2rem;
   width: 50%;
+  color: #c69736;
 }
 
 .second-button {
-  border: 1px solid rgb(163, 163, 163);
-  background-color: #043b9f;
-  color: #fff;
+  border: 1px solid #000;
+  background-color: #c69736;
+  color: #000;
   padding: 0.2rem;
   width: 50%;
 }
@@ -185,17 +188,18 @@ login
   border: none;
   border-bottom: 1px solid gray;
   margin-bottom: 1rem;
-  width: 80%;
+  width: 90%;
+  padding: 0.7rem;
 }
 
 .form-credentials button {
   padding: 1rem;
-  background-color: #043b9f;
+  background-color: #c69736;
   border: none;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   margin-top: 2rem;
-  width: 80%;
+  width: 97%;
 }
 
 .form-signup-credentials input {
@@ -203,23 +207,21 @@ login
   border-bottom: 1px solid gray;
   margin-bottom: 1rem;
   width: 80%;
+  padding: 0.5rem;
 }
 
 .form-signup-credentials button {
   padding: 1rem;
-  background-color: #043b9f;
+  background-color: #c69736;
   border: none;
-  color: #fff;
+  color: #000;
   font-size: 20px;
-  margin-top: 2rem;
+  margin-top: 0.2rem;
   width: 80%;
 }
 .lower-info {
   display: flex;
-}
-
-.lower-info div {
-  width: 50%;
+  justify-content: space-between;
 }
 
 .lower-info p {
@@ -241,4 +243,9 @@ login
   position: relative;
   left: 50%;
   transform: translate(-50%);
+}
+
+.close-button {
+  position: absolute;
+  top: -45%;
 }

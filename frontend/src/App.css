@@ -51,3 +51,7 @@
 .MuiTypography-colorTextPrimary {
   color: #fff !important;
 }
+
+button {
+  cursor: pointer;
+}

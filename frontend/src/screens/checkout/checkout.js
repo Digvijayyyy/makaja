@@ -112,7 +112,7 @@ export const Checkout = () => {
             <input
               value={lname}
               onChange={changeHandler3}
-              style={{ width: "40.7%", padding: "1rem", margin: "0.5rem" }}
+              style={{ width: "41.2%", padding: "1rem", margin: "0.5rem" }}
               type="text"
               placeholder="last Name"
             />
@@ -154,7 +154,7 @@ export const Checkout = () => {
             <input
               value={pin}
               onChange={changeHandler8}
-              style={{ width: "25%", padding: "1rem", margin: "0.5rem" }}
+              style={{ width: "26%", padding: "1rem", margin: "0.5rem" }}
               type="text"
               placeholder="Zip code"
             />
